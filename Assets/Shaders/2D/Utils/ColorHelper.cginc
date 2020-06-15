@@ -97,7 +97,7 @@ float calcEdgeByGrayscale(sampler2D tex, float2 uv, float offset) {
 
 // 随机
 inline float random(float2 uv) {
-    return frac(sin(dot(uv, float2(12.9898,78.233) * _Time.x)) * 43758.5453123);
+    return frac(sin(dot(uv, float2(12.9898, 78.233))) * 43758.5453123);
 }
 
 // 柏林
